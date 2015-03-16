@@ -1,0 +1,38 @@
+/*This shows what you can do to links*/
+a:link{
+	color: red;
+}
+
+a:visited{
+	color: blue;
+}
+
+a:hover{
+	color: cyan;
+}
+
+
+/*you can also hover on p tags*/
+p:hover{
+	color: purple;
+}
+
+
+/*this shows what you can do on inputs*/
+input{
+	background-color: yellow;
+}
+input:hover{
+	background-color: red;
+}
+
+input:focus{
+	background-color: purple;
+}
+
+
+
+/*you can see what happens when you click a button*/
+button:active{
+	background-color: cyan;
+}

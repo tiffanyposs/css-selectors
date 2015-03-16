@@ -1,0 +1,42 @@
+/*PART ONE*/
+/*this selects the first p element*/
+p:first-of-type{
+	color: red;
+}
+
+/*this selects the last p element*/
+p:last-of-type{
+	color: cyan;
+}
+
+
+/*PART TWO*/
+/*This selects p elements that are the only p element within their parent*/
+h4:only-of-type{
+	background-color: yellow;
+}
+
+
+
+/*PART THREE*/
+/*this selects the second li element within each parent*/
+li:nth-child(2){
+	color: blue;
+}
+
+/*this selects the second to last li element within each parent*/
+li:nth-last-child(2){
+	color: purple;
+}
+
+
+/*PART FOUR*/
+/*this will choose the third element that has the class of .four*/
+.four:nth-of-type(3){
+	color: orange;
+}
+
+/*this will choose the second to last element that has the class of .four*/
+.four:nth-last-of-type(2){
+	color: purple;
+}

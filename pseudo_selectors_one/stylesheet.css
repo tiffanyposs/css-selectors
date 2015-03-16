@@ -1,0 +1,26 @@
+/*PART ONE*/
+/*this selects all p elements that are the first child of their parent*/
+p:first-child{
+	color: red;
+}
+
+
+/*PART TWO*/
+/*this selects the first child in a list*/
+li:first-child{
+	color: yellow;
+}
+
+/*this selects the last element in a list*/
+li:last-child{
+	color: cyan;
+}
+
+
+
+
+/*PART THREE*/
+/*this will turn elements with the three class that are the only child of their parent element*/
+.three:only-child{
+	color: purple;
+}

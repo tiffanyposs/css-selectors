@@ -1,0 +1,33 @@
+p{
+	width: 50%;
+	margin-left: 25%;
+	text-align: justify;
+}
+
+
+/*PART ONE*/
+/*this makes the first line of whatever selector that style*/
+.one:first-line{
+	color: red;
+}
+
+/*this will change the first letter, overrides :first-line*/
+.one:first-letter{
+	color: orange;
+	font-size: 3em;
+}
+
+
+/*PART TWO*/
+.two:before{
+	content: "Before ";
+	font-weight: bold;
+	color: purple;
+}
+
+.two:after{
+	content: " After";
+	font-weight: bold;
+	color: cyan;
+}
+

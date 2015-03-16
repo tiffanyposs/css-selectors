@@ -1,0 +1,22 @@
+div{
+	width: 200px;
+	height: 200px;
+}
+
+.red{
+	background-color: red;
+}
+
+.orange{
+	background-color: orange;
+}
+
+.blue{
+	background-color: blue;
+}
+
+
+/*This is where you can select a certain element based on it's title, or href, or src*/
+div[title = "one"]{
+	border: 5px solid green;
+}

@@ -1,0 +1,27 @@
+/*PART ONE*/
+
+/*THIS DOESN'T DO ANYTHING BECAUSE THERE ARE NO li's THAT DIRECTLY  HAVE THE test id*/
+li#test{
+	color: red;
+}
+
+
+/*THIS CHANGES ALL THE DECENDENTS TO RED*/
+#test{
+	color: purple;
+}
+
+
+/*PART TWO*/
+
+
+/*THIS TURNS ALL THE li's INSIDE OF THE test_two id to cyan*/
+#test_two li{
+	color: cyan;
+}
+
+
+/*THIS TURNS ALL THE LI'S INSIDE OF THE test_two id to blue, but not the ones outside*/
+#test_two h3{
+	color: blue;
+}

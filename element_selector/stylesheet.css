@@ -1,0 +1,28 @@
+/*Part One*/
+
+/*This selects all the p's that are decendents of section*/
+section p{
+	color: blue;
+}
+
+/*selects the h1 that is direct decendent of section*/
+section > h1{
+	color: red;
+}
+
+
+/*PART TWO*/
+
+/*This selects all the h3's but only when they come directly after an h2*/
+h2 + h3{
+	color: purple;
+}
+
+
+/*PART THREE*/
+
+/*This selects all the h5's that have the same parent of an h4 AND come
+after an h4*/
+h4 ~ h5{
+	color: cyan;
+}

@@ -1,0 +1,24 @@
+/*PART ONE*/
+.test{
+	color: red;
+}
+
+
+/*PART TWO*/
+/*this changes only a p tag that have the class of test_two*/
+p.test_two{
+	color: purple;
+}
+
+/*this changes all p elements to blue that are decendents of the .test_two class*/
+.test_two p{
+	color: blue;
+}
+
+
+
+/*PART THREE*/
+/*all decendents will apply this*/
+.test_three{
+	color: cyan;
+}
